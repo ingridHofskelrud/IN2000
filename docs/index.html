@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Småfly app</title>
+    <link href="images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script>
+<link href="styles/style.css" rel="Stylesheet">
+<link href="styles/main.css" rel="Stylesheet">
+<link href="styles/prism.css" rel="Stylesheet">
+<link href="styles/logo-styles.css" rel="Stylesheet">
+<link href="styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="index.html">
+                            Småfly app
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":app:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" id="content" pageIds="Småfly app::////PointingToDeclaration//492899073">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Småfly</span></span> <span><span>app</span></span></h1>
+  </div>
+  <h2 class="">Packages</h2>
+  <div class="table"><a data-name="-1641499245%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly" id="-1641499245%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly/index.html">no.uio.ifi.in2000.team33.smaafly</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1641499245%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="535530417%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.airports" id="535530417%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.airports/index.html">no.uio.ifi.in2000.team33.smaafly.data.airports</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="535530417%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1030471059%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.grib" id="-1030471059%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.grib/index.html">no.uio.ifi.in2000.team33.smaafly.data.grib</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1030471059%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1325501035%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.grib.grib2json" id="-1325501035%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.grib.grib2json/index.html">no.uio.ifi.in2000.team33.smaafly.data.grib.grib2json</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1325501035%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-2064860583%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.locationforecast" id="-2064860583%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.locationforecast/index.html">no.uio.ifi.in2000.team33.smaafly.data.locationforecast</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2064860583%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1769068868%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.room" id="1769068868%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.room/index.html">no.uio.ifi.in2000.team33.smaafly.data.room</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1769068868%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="384471062%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.sigchart" id="384471062%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.sigchart/index.html">no.uio.ifi.in2000.team33.smaafly.data.sigchart</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="384471062%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1285053117%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.tafmetar" id="1285053117%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.tafmetar/index.html">no.uio.ifi.in2000.team33.smaafly.data.tafmetar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1285053117%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1244398383%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.data.weather" id="1244398383%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.data.weather/index.html">no.uio.ifi.in2000.team33.smaafly.data.weather</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1244398383%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1313700547%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.domain.finddistance" id="-1313700547%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.domain.finddistance/index.html">no.uio.ifi.in2000.team33.smaafly.domain.finddistance</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1313700547%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1377054997%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.domain.findtime" id="1377054997%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.domain.findtime/index.html">no.uio.ifi.in2000.team33.smaafly.domain.findtime</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1377054997%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1193727245%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.domain.getairports" id="-1193727245%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.domain.getairports/index.html">no.uio.ifi.in2000.team33.smaafly.domain.getairports</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1193727245%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1344786600%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.domain.getsigchart" id="-1344786600%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.domain.getsigchart/index.html">no.uio.ifi.in2000.team33.smaafly.domain.getsigchart</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1344786600%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1116345648%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.domain.getSymbolCode" id="1116345648%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.domain.getSymbolCode/index.html">no.uio.ifi.in2000.team33.smaafly.domain.getSymbolCode</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1116345648%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-444204545%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.domain.gettafmetar" id="-444204545%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.domain.gettafmetar/index.html">no.uio.ifi.in2000.team33.smaafly.domain.gettafmetar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-444204545%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-233749972%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.model.airports" id="-233749972%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.model.airports/index.html">no.uio.ifi.in2000.team33.smaafly.model.airports</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-233749972%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1425899850%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.model.grib2json" id="-1425899850%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.model.grib2json/index.html">no.uio.ifi.in2000.team33.smaafly.model.grib2json</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1425899850%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1172162004%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.model.locationforecast" id="1172162004%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.model.locationforecast/index.html">no.uio.ifi.in2000.team33.smaafly.model.locationforecast</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1172162004%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1356072255%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.model.room" id="1356072255%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.model.room/index.html">no.uio.ifi.in2000.team33.smaafly.model.room</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1356072255%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-384809327%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.model.sigchart" id="-384809327%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.model.sigchart/index.html">no.uio.ifi.in2000.team33.smaafly.model.sigchart</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-384809327%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="515772728%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.model.tafmetar" id="515772728%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.model.tafmetar/index.html">no.uio.ifi.in2000.team33.smaafly.model.tafmetar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="515772728%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="154592917%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.components" id="154592917%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.components/index.html">no.uio.ifi.in2000.team33.smaafly.ui.components</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="154592917%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="491905724%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.favorites" id="491905724%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.favorites/index.html">no.uio.ifi.in2000.team33.smaafly.ui.favorites</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="491905724%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="722624449%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.map" id="722624449%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.map/index.html">no.uio.ifi.in2000.team33.smaafly.ui.map</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="722624449%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="886803475%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.navigation" id="886803475%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.navigation/index.html">no.uio.ifi.in2000.team33.smaafly.ui.navigation</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="886803475%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="141287962%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.routescreen" id="141287962%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.routescreen/index.html">no.uio.ifi.in2000.team33.smaafly.ui.routescreen</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="141287962%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="203873964%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.screens" id="203873964%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.screens/index.html">no.uio.ifi.in2000.team33.smaafly.ui.screens</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="203873964%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1347362220%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.sigchart" id="1347362220%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.sigchart/index.html">no.uio.ifi.in2000.team33.smaafly.ui.sigchart</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1347362220%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-2047023021%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.tafmetar" id="-2047023021%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.tafmetar/index.html">no.uio.ifi.in2000.team33.smaafly.ui.tafmetar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2047023021%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1738588882%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.theme" id="-1738588882%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.theme/index.html">no.uio.ifi.in2000.team33.smaafly.ui.theme</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1738588882%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1033776224%2FPackages%2F492899073" anchor-label="no.uio.ifi.in2000.team33.smaafly.ui.toolbar" id="-1033776224%2FPackages%2F492899073" data-filterable-set=":app:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":app:dokkaHtml/release" data-filterable-set=":app:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-småfly app/no.uio.ifi.in2000.team33.smaafly.ui.toolbar/index.html">no.uio.ifi.in2000.team33.smaafly.ui.toolbar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1033776224%2FPackages%2F492899073"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">androidJvm</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

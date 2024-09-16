@@ -1,0 +1,462 @@
+
+{
+  "airports": [
+    {
+      "name": "OESTRE AERA",
+      "icao": "ENAE",
+      "lat": 61.2583333,
+      "long": 11.67,
+      "elevation": -1
+    },
+    {
+      "name": "VIGRA",
+      "icao": "ENAL",
+      "lat": 62.5624423,
+      "long": 6.119639,
+      "elevation": 22
+    },
+    {
+      "name": "ANDENES",
+      "icao": "ENAN",
+      "lat": 69.2923637,
+      "long": 16.1440468,
+      "elevation": 14
+    },
+    {
+      "name": "HAMNERABBEN",
+      "icao": "ENAS",
+      "lat": 78.9277318,
+      "long": 11.8747953,
+      "elevation": 8
+    },
+    {
+      "name": "ALTA AIRPORT",
+      "icao": "ENAT",
+      "lat": 69.9760867,
+      "long": 23.3715484,
+      "elevation": 3
+    },
+    {
+      "name": "BRINGELAND",
+      "icao": "ENBL",
+      "lat": 61.391197,
+      "long": 5.7568797,
+      "elevation": 150
+    },
+    {
+      "name": "BOEMOEN",
+      "icao": "ENBM",
+      "lat": 60.6387539,
+      "long": 6.5010082,
+      "elevation": -1
+    },
+    {
+      "name": "BROENNOEY",
+      "icao": "ENBN",
+      "lat": 65.4611586,
+      "long": 12.2175401,
+      "elevation": 9
+    },
+    {
+      "name": "BODO",
+      "icao": "ENBO",
+      "lat": 67.2692037,
+      "long": 14.3652514,
+      "elevation": 13
+    },
+    {
+      "name": "BOEVERBRU",
+      "icao": "ENBB",
+      "lat": 60.6369454,
+      "long": 10.6772249,
+      "elevation": -1
+    },
+    {
+      "name": "FLESLAND",
+      "icao": "ENBR",
+      "lat": 60.2935221,
+      "long": 5.2180874,
+      "elevation": 50
+    },
+    {
+      "name": "BATSFJORD",
+      "icao": "ENBS",
+      "lat": 70.6002426,
+      "long": 29.6926354,
+      "elevation": 10
+    },
+    {
+      "name": "BERLEVAG",
+      "icao": "ENBV",
+      "lat": 70.8715254,
+      "long": 29.0342053,
+      "elevation": 13
+    },
+    {
+      "name": "KJEVIK ",
+      "icao": "ENCN",
+      "lat": 58.2039535,
+      "long": 8.0850219,
+      "elevation": 17
+    },
+    {
+      "name": "DAGALI",
+      "icao": "ENDI",
+      "lat": 60.4166887,
+      "long": 8.5128053,
+      "elevation": 798
+    },
+    {
+      "name": "TOMLEVOLD",
+      "icao": "ENDO",
+      "lat": 60.83361,
+      "long": 9.91444,
+      "elevation": -1
+    },
+    {
+      "name": "BARDUFOSS",
+      "icao": "ENDU",
+      "lat": 69.0557573,
+      "long": 18.5403544,
+      "elevation": 79
+    },
+    {
+      "name": "GRAADUSSAN",
+      "icao": "ENEN",
+      "lat": 67.96722,
+      "long": 14.9925,
+      "elevation": -1
+    },
+    {
+      "name": "EVENES",
+      "icao": "ENEV",
+      "lat": 68.4888501,
+      "long": 16.6783877,
+      "elevation": 26
+    },
+    {
+      "name": "FLATVAL",
+      "icao": "ENFA",
+      "lat": 63.7002628,
+      "long": 8.7589071,
+      "elevation": -1
+    },
+    {
+      "name": "LEIRIN",
+      "icao": "ENFG",
+      "lat": 61.015508,
+      "long": 9.28809,
+      "elevation": 822
+    },
+    {
+      "name": "FLORO",
+      "icao": "ENFL",
+      "lat": 61.5836438,
+      "long": 5.0246451,
+      "elevation": 9
+    },
+    {
+      "name": "FYRESDAL",
+      "icao": "ENFY",
+      "lat": 59.2027814,
+      "long": 8.0876303,
+      "elevation": -1
+    },
+    {
+      "name": "GULLKNAPP",
+      "icao": "ENGK",
+      "lat": 58.5184262,
+      "long": 8.7077457,
+      "elevation": 121
+    },
+    {
+      "name": "GRIMSMOEN",
+      "icao": "ENGN",
+      "lat": 62.1169708,
+      "long": 10.1098084,
+      "elevation": -1
+    },
+    {
+      "name": "GARDERMOEN",
+      "icao": "ENGM",
+      "lat": 60.2028027,
+      "long": 11.0840077,
+      "elevation": 204
+    },
+    {
+      "name": "GROENOERA",
+      "icao": "ENGS",
+      "lat": 64.1829572,
+      "long": 12.1701911,
+      "elevation": -1
+    },
+    {
+      "name": "STAFSBERG",
+      "icao": "ENHA",
+      "lat": 60.8179217,
+      "long": 11.0680303,
+      "elevation": -1
+    },
+    {
+      "name": "KARMOY",
+      "icao": "ENHD",
+      "lat": 59.3431967,
+      "long": 5.2125165,
+      "elevation": -1
+    },
+    {
+      "name": "HASVIK",
+      "icao": "ENHK",
+      "lat": 70.4866749,
+      "long": 22.1397449,
+      "elevation": -1
+    },
+    {
+      "name": "HAMMERFEST",
+      "icao": "ENHF",
+      "lat": 70.6796394,
+      "long": 23.6685934,
+      "elevation": -1
+    },
+    {
+      "name": "HOKKSUND",
+      "icao": "ENHS",
+      "lat": 59.7599844,
+      "long": 9.9189538,
+      "elevation": -1
+    },
+    {
+      "name": "VALAN",
+      "icao": "ENHV",
+      "lat": 71.0096837,
+      "long": 25.9837375,
+      "elevation": -1
+    },
+    {
+      "name": "JARLSBERG",
+      "icao": "ENJB",
+      "lat": 59.2980189,
+      "long": 10.3699736,
+      "elevation": -1
+    },
+    {
+      "name": "KJELLER",
+      "icao": "ENKJ",
+      "lat": 59.9694937,
+      "long": 11.0387706,
+      "elevation": -1
+    },
+    {
+      "name": "HOEYBUKTMOEN",
+      "icao": "ENKR",
+      "lat": 69.7250613,
+      "long": 29.8877053,
+      "elevation": -1
+    },
+    {
+      "name": "LISTA",
+      "icao": "ENLI",
+      "lat": 58.1002123,
+      "long": 6.6249394,
+      "elevation": -1
+    },
+    {
+      "name": "LEKNES",
+      "icao": "ENLK",
+      "lat": 68.1526061,
+      "long": 13.6094954,
+      "elevation": -1
+    },
+    {
+      "name": "LUNDE",
+      "icao": "ENLU",
+      "lat": 59.2977796,
+      "long": 9.1329619,
+      "elevation": -1
+    },
+    {
+      "name": "ROESSVOLL",
+      "icao": "ENRA",
+      "lat": 66.3639052,
+      "long": 14.3014083,
+      "elevation": -1
+    },
+    {
+      "name": "KJAERSTAD",
+      "icao": "ENMS",
+      "lat": 65.7836902,
+      "long": 13.2151786,
+      "elevation": -1
+    },
+    {
+      "name": "MEHAMN",
+      "icao": "ENMH",
+      "lat": 71.0296821,
+      "long": 27.8266821,
+      "elevation": -1
+    },
+    {
+      "name": "BANAK",
+      "icao": "ENNA",
+      "lat": 70.0667098,
+      "long": 24.973984,
+      "elevation": -1
+    },
+    {
+      "name": "NAMSOS",
+      "icao": "ENNM",
+      "lat": 64.4722594,
+      "long": 11.5786622,
+      "elevation": -1
+    },
+    {
+      "name": "NOTODDEN",
+      "icao": "ENNO",
+      "lat": 59.5655334,
+      "long": 9.2122891,
+      "elevation": -1
+    },
+    {
+      "name": "OERLAND",
+      "icao": "ENOL",
+      "lat": 63.7000594,
+      "long": 9.6027428,
+      "elevation": -1
+    },
+    {
+      "name": "HOVDEN",
+      "icao": "ENOV",
+      "lat": 62.1800354,
+      "long": 6.0742507,
+      "elevation": -1
+    },
+    {
+      "name": "AASTORP",
+      "icao": "ENRK",
+      "lat": 59.397534,
+      "long": 11.3467124,
+      "elevation": -1
+    },
+    {
+      "name": "REINSVOLL",
+      "icao": "ENRV",
+      "lat": 60.6728869,
+      "long": 10.5665121,
+      "elevation": -1
+    },
+    {
+      "name": "RENA",
+      "icao": "ENRE",
+      "lat": 61.1862477,
+      "long": 11.3744494,
+      "elevation": -1
+    },
+    {
+      "name": "RYUM",
+      "icao": "ENRM",
+      "lat": 64.8384341,
+      "long": 11.1460151,
+      "elevation": -1
+    },
+    {
+      "name": "ROEROS",
+      "icao": "ENRO",
+      "lat": 62.5790253,
+      "long": 11.3449828,
+      "elevation": -1
+    },
+    {
+      "name": "FRYA",
+      "icao": "ENRI",
+      "lat": 61.5452975,
+      "long": 10.0641431,
+      "elevation": -1
+    },
+    {
+      "name": "SKAGEN",
+      "icao": "ENSK",
+      "lat": 68.580718,
+      "long": 15.0262004,
+      "elevation": -1
+    },
+    {
+      "name": "ANDA",
+      "icao": "ENSD",
+      "lat": 61.8300617,
+      "long": 6.1057194,
+      "elevation": -1
+    },
+    {
+      "name": "SORKJOSEN",
+      "icao": "ENSR",
+      "lat": 69.7866566,
+      "long": 20.9597,
+      "elevation": -1
+    },
+    {
+      "name": "SOERSTOKKEN",
+      "icao": "ENSO",
+      "lat": 59.7927339,
+      "long": 5.3397183,
+      "elevation": -1
+    },
+    {
+      "name": "TORP",
+      "icao": "ENTO",
+      "lat": 59.1866337,
+      "long": 10.2586243,
+      "elevation": -1
+    },
+    {
+      "name": "TROMSOE/LANGNES",
+      "icao": "ENTC",
+      "lat": 69.6815149,
+      "long": 18.9177192,
+      "elevation": -1
+    },
+    {
+      "name": "TYNSET",
+      "icao": "ENTY",
+      "lat": 62.2571119,
+      "long": 10.668886,
+      "elevation": -1
+    },
+    {
+      "name": "VAKSINEN",
+      "icao": "ENUL",
+      "lat": 60.1913889,
+      "long": 5.4205556,
+      "elevation": -1
+    },
+    {
+      "name": "VAERNES",
+      "icao": "ENVA",
+      "lat": 63.4575941,
+      "long": 10.9241891,
+      "elevation": -1
+    },
+    {
+      "name": "VADSOE",
+      "icao": "ENVD",
+      "lat": 70.0652212,
+      "long": 29.84476,
+      "elevation": -1
+    },
+    {
+      "name": "GEITERYGGEN",
+      "icao": "ENSN",
+      "lat": 59.1850511,
+      "long": 9.567082,
+      "elevation": -1
+    },
+    {
+      "name": "SOENDRE SKI GAARD",
+      "icao": "ENSI",
+      "lat": 59.7070889,
+      "long": 10.8817434,
+      "elevation": -1
+    }
+  ]
+}
+
+
